@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		666F47A3233739BD00B0672C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F47A2233739BD00B0672C /* AppDelegate.swift */; };
+		666F47A5233739BD00B0672C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F47A4233739BD00B0672C /* SceneDelegate.swift */; };
+		666F47A7233739BD00B0672C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F47A6233739BD00B0672C /* ContentView.swift */; };
+		666F47A9233739C000B0672C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666F47A8233739C000B0672C /* Assets.xcassets */; };
+		666F47AC233739C000B0672C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666F47AB233739C000B0672C /* Preview Assets.xcassets */; };
+		666F47AF233739C000B0672C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666F47AD233739C000B0672C /* LaunchScreen.storyboard */; };
+		666F47BA233739C000B0672C /* Penn_Labs_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F47B9233739C000B0672C /* Penn_Labs_ChallengeTests.swift */; };
+		666F47C5233739C000B0672C /* Penn_Labs_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F47C4233739C000B0672C /* Penn_Labs_ChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		666F47B6233739C000B0672C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 666F4797233739BD00B0672C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666F479E233739BD00B0672C;
+			remoteInfo = "Penn Labs Challenge";
+		};
+		666F47C1233739C000B0672C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 666F4797233739BD00B0672C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666F479E233739BD00B0672C;
+			remoteInfo = "Penn Labs Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		666F479F233739BD00B0672C /* Penn Labs Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn Labs Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		666F47A2233739BD00B0672C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		666F47A4233739BD00B0672C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		666F47A6233739BD00B0672C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		666F47A8233739C000B0672C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		666F47AB233739C000B0672C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		666F47AE233739C000B0672C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		666F47B0233739C000B0672C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666F47B5233739C000B0672C /* Penn Labs ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Labs ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		666F47B9233739C000B0672C /* Penn_Labs_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penn_Labs_ChallengeTests.swift; sourceTree = "<group>"; };
+		666F47BB233739C000B0672C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666F47C0233739C000B0672C /* Penn Labs ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Labs ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		666F47C4233739C000B0672C /* Penn_Labs_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penn_Labs_ChallengeUITests.swift; sourceTree = "<group>"; };
+		666F47C6233739C000B0672C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		666F479C233739BD00B0672C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666F47B2233739C000B0672C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666F47BD233739C000B0672C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		666F4796233739BD00B0672C = {
+			isa = PBXGroup;
+			children = (
+				666F47A1233739BD00B0672C /* Penn Labs Challenge */,
+				666F47B8233739C000B0672C /* Penn Labs ChallengeTests */,
+				666F47C3233739C000B0672C /* Penn Labs ChallengeUITests */,
+				666F47A0233739BD00B0672C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		666F47A0233739BD00B0672C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				666F479F233739BD00B0672C /* Penn Labs Challenge.app */,
+				666F47B5233739C000B0672C /* Penn Labs ChallengeTests.xctest */,
+				666F47C0233739C000B0672C /* Penn Labs ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		666F47A1233739BD00B0672C /* Penn Labs Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				666F47A2233739BD00B0672C /* AppDelegate.swift */,
+				666F47A4233739BD00B0672C /* SceneDelegate.swift */,
+				666F47A6233739BD00B0672C /* ContentView.swift */,
+				666F47A8233739C000B0672C /* Assets.xcassets */,
+				666F47AD233739C000B0672C /* LaunchScreen.storyboard */,
+				666F47B0233739C000B0672C /* Info.plist */,
+				666F47AA233739C000B0672C /* Preview Content */,
+			);
+			path = "Penn Labs Challenge";
+			sourceTree = "<group>";
+		};
+		666F47AA233739C000B0672C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				666F47AB233739C000B0672C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		666F47B8233739C000B0672C /* Penn Labs ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				666F47B9233739C000B0672C /* Penn_Labs_ChallengeTests.swift */,
+				666F47BB233739C000B0672C /* Info.plist */,
+			);
+			path = "Penn Labs ChallengeTests";
+			sourceTree = "<group>";
+		};
+		666F47C3233739C000B0672C /* Penn Labs ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				666F47C4233739C000B0672C /* Penn_Labs_ChallengeUITests.swift */,
+				666F47C6233739C000B0672C /* Info.plist */,
+			);
+			path = "Penn Labs ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		666F479E233739BD00B0672C /* Penn Labs Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666F47C9233739C000B0672C /* Build configuration list for PBXNativeTarget "Penn Labs Challenge" */;
+			buildPhases = (
+				666F479B233739BD00B0672C /* Sources */,
+				666F479C233739BD00B0672C /* Frameworks */,
+				666F479D233739BD00B0672C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Penn Labs Challenge";
+			productName = "Penn Labs Challenge";
+			productReference = 666F479F233739BD00B0672C /* Penn Labs Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		666F47B4233739C000B0672C /* Penn Labs ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666F47CC233739C000B0672C /* Build configuration list for PBXNativeTarget "Penn Labs ChallengeTests" */;
+			buildPhases = (
+				666F47B1233739C000B0672C /* Sources */,
+				666F47B2233739C000B0672C /* Frameworks */,
+				666F47B3233739C000B0672C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666F47B7233739C000B0672C /* PBXTargetDependency */,
+			);
+			name = "Penn Labs ChallengeTests";
+			productName = "Penn Labs ChallengeTests";
+			productReference = 666F47B5233739C000B0672C /* Penn Labs ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		666F47BF233739C000B0672C /* Penn Labs ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666F47CF233739C000B0672C /* Build configuration list for PBXNativeTarget "Penn Labs ChallengeUITests" */;
+			buildPhases = (
+				666F47BC233739C000B0672C /* Sources */,
+				666F47BD233739C000B0672C /* Frameworks */,
+				666F47BE233739C000B0672C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666F47C2233739C000B0672C /* PBXTargetDependency */,
+			);
+			name = "Penn Labs ChallengeUITests";
+			productName = "Penn Labs ChallengeUITests";
+			productReference = 666F47C0233739C000B0672C /* Penn Labs ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		666F4797233739BD00B0672C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Henrique Lorente";
+				TargetAttributes = {
+					666F479E233739BD00B0672C = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					666F47B4233739C000B0672C = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 666F479E233739BD00B0672C;
+					};
+					666F47BF233739C000B0672C = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 666F479E233739BD00B0672C;
+					};
+				};
+			};
+			buildConfigurationList = 666F479A233739BD00B0672C /* Build configuration list for PBXProject "Penn Labs Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 666F4796233739BD00B0672C;
+			productRefGroup = 666F47A0233739BD00B0672C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				666F479E233739BD00B0672C /* Penn Labs Challenge */,
+				666F47B4233739C000B0672C /* Penn Labs ChallengeTests */,
+				666F47BF233739C000B0672C /* Penn Labs ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		666F479D233739BD00B0672C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666F47AF233739C000B0672C /* LaunchScreen.storyboard in Resources */,
+				666F47AC233739C000B0672C /* Preview Assets.xcassets in Resources */,
+				666F47A9233739C000B0672C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666F47B3233739C000B0672C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666F47BE233739C000B0672C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		666F479B233739BD00B0672C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666F47A3233739BD00B0672C /* AppDelegate.swift in Sources */,
+				666F47A5233739BD00B0672C /* SceneDelegate.swift in Sources */,
+				666F47A7233739BD00B0672C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666F47B1233739C000B0672C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666F47BA233739C000B0672C /* Penn_Labs_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666F47BC233739C000B0672C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666F47C5233739C000B0672C /* Penn_Labs_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		666F47B7233739C000B0672C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666F479E233739BD00B0672C /* Penn Labs Challenge */;
+			targetProxy = 666F47B6233739C000B0672C /* PBXContainerItemProxy */;
+		};
+		666F47C2233739C000B0672C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666F479E233739BD00B0672C /* Penn Labs Challenge */;
+			targetProxy = 666F47C1233739C000B0672C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		666F47AD233739C000B0672C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666F47AE233739C000B0672C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		666F47C7233739C000B0672C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		666F47C8233739C000B0672C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		666F47CA233739C000B0672C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Penn Labs Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = J24FAQJ25G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Penn Labs Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henryoda.Penn-Labs-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		666F47CB233739C000B0672C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Penn Labs Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = J24FAQJ25G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Penn Labs Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henryoda.Penn-Labs-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		666F47CD233739C000B0672C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J24FAQJ25G;
+				INFOPLIST_FILE = "Penn Labs ChallengeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henryoda.Penn-Labs-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penn Labs Challenge.app/Penn Labs Challenge";
+			};
+			name = Debug;
+		};
+		666F47CE233739C000B0672C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J24FAQJ25G;
+				INFOPLIST_FILE = "Penn Labs ChallengeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henryoda.Penn-Labs-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penn Labs Challenge.app/Penn Labs Challenge";
+			};
+			name = Release;
+		};
+		666F47D0233739C000B0672C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J24FAQJ25G;
+				INFOPLIST_FILE = "Penn Labs ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henryoda.Penn-Labs-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penn Labs Challenge";
+			};
+			name = Debug;
+		};
+		666F47D1233739C000B0672C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J24FAQJ25G;
+				INFOPLIST_FILE = "Penn Labs ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henryoda.Penn-Labs-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penn Labs Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		666F479A233739BD00B0672C /* Build configuration list for PBXProject "Penn Labs Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666F47C7233739C000B0672C /* Debug */,
+				666F47C8233739C000B0672C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666F47C9233739C000B0672C /* Build configuration list for PBXNativeTarget "Penn Labs Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666F47CA233739C000B0672C /* Debug */,
+				666F47CB233739C000B0672C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666F47CC233739C000B0672C /* Build configuration list for PBXNativeTarget "Penn Labs ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666F47CD233739C000B0672C /* Debug */,
+				666F47CE233739C000B0672C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666F47CF233739C000B0672C /* Build configuration list for PBXNativeTarget "Penn Labs ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666F47D0233739C000B0672C /* Debug */,
+				666F47D1233739C000B0672C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 666F4797233739BD00B0672C /* Project object */;
+}
