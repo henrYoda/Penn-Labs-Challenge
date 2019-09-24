@@ -16,6 +16,7 @@ When the app is opened, the main screen is shown. It is built using a `ScrollVie
 Whenever a `HallView` is clicked, the 'ScrollView' disappears and is replaced by a `Navigation` view, which contains a `WebView` (wrapped thanks to Bradley Hilton over at https://forums.developer.apple.com/thread/117348) which contains the webpage with the dining venue's menu.
 
 ### Asynchronous loading
+The JSON data is downloaded from the API through the `NetworkManager` class. This class makes use of Combine to serve as an ObservableObject. This allows us to asynchronously fetch the JSON data, format it and create `HallView` views for each dining venue. Thanks to Combine, as soon as the data is received and processed the views are automatically updated to display the obtained information.
 
 ## Built With
 
@@ -23,4 +24,4 @@ Whenever a `HallView` is clicked, the 'ScrollView' disappears and is replaced by
 
 ## Authors
 
-* Henrique Lorente
+* Henrique Lorente (UPenn SEAS 2023)
