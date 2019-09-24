@@ -18,6 +18,12 @@ Whenever a `HallView` is clicked, the 'ScrollView' disappears and is replaced by
 ### Asynchronous loading
 The JSON data is downloaded from the API through the `NetworkManager` class. This class makes use of Combine to serve as an ObservableObject. This allows us to asynchronously fetch the JSON data, format it and create `HallView` views for each dining venue. Thanks to Combine, as soon as the data is received and processed the views are automatically updated to display the obtained information.
 
+## Known issues
+
+* All dining venues will be displayed as "Open" (except in the case where they are closed all day, in which case the user will be told that they are both "open" and "closed today".
+* There are no animations and the application feels clunky when opening a `WebView`.
+* iOS dark mode is not fully supported - some text does not change to white.
+
 ## Built With
 
 * [URLImage](https://github.com/dmytro-anokhin/url-image) - Used to download the images given a URL
