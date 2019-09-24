@@ -10,7 +10,7 @@ This app was made using SwiftUI for creating the user interface and Combine for 
 ### Structure
 When the app is opened, the main screen is shown. It is built using a 'ScrollView', which contains a 'VStack'. Inside the 'VStack', 'Text' views are used to display any headings. Then, each row of dining venue is built using a 'HallView' - a custom view built by myself to contain the image and information for each hall.
 
-Whenever a 'HallView' is clicked, the 'ScrollView' disappears and is replaced by a 'Navigation' view, which contains a 'WebView' (wrapped thanks to Bradley Hilton over at https://forums.developer.apple.com/thread/117348) which contains the webpage with the dining venue's menu.
+Whenever a `HallView` is clicked, the 'ScrollView' disappears and is replaced by a 'Navigation' view, which contains a 'WebView' (wrapped thanks to Bradley Hilton over at https://forums.developer.apple.com/thread/117348) which contains the webpage with the dining venue's menu.
 
 ### Asynchronous loading
 
