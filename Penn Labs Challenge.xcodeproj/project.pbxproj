@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		666F47AF233739C000B0672C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666F47AD233739C000B0672C /* LaunchScreen.storyboard */; };
 		666F47BA233739C000B0672C /* Penn_Labs_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F47B9233739C000B0672C /* Penn_Labs_ChallengeTests.swift */; };
 		666F47C5233739C000B0672C /* Penn_Labs_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F47C4233739C000B0672C /* Penn_Labs_ChallengeUITests.swift */; };
+		66AB57C923383FF0006A702E /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 66AB57C823383FF0006A702E /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AB57C923383FF0006A702E /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,9 @@
 			dependencies = (
 			);
 			name = "Penn Labs Challenge";
+			packageProductDependencies = (
+				66AB57C823383FF0006A702E /* URLImage */,
+			);
 			productName = "Penn Labs Challenge";
 			productReference = 666F479F233739BD00B0672C /* Penn Labs Challenge.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 666F4796233739BD00B0672C;
+			packageReferences = (
+				66AB57C723383FF0006A702E /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 666F47A0233739BD00B0672C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -594,6 +602,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66AB57C723383FF0006A702E /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66AB57C823383FF0006A702E /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66AB57C723383FF0006A702E /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 666F4797233739BD00B0672C /* Project object */;
 }
